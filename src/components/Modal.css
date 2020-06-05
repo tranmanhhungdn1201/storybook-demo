@@ -1,0 +1,70 @@
+.modal.show{
+    display: block;
+  }
+  .modal {
+    display: block;
+    position: fixed;
+    z-index: 9999;
+    max-width: 450px;
+    max-height: fit-content;
+    background-color: #FFF;
+    padding: 20px 30px;
+    border-radius: 7px;
+    position: fixed;
+    top: 30px;
+    left: 25%;
+    color: #000;
+  }
+  .modal .title {
+    display: flex;
+    justify-content: flex-end
+  }
+  .modal .title h1 {
+    flex-grow: 1;
+    font-size: 16px;
+  }
+  .modal .title span {
+    font-size: 25px;
+  }
+  .modal .title span a {
+    text-decoration: none;
+    color: #000;
+  }
+  .modal .title h1 {
+    margin: 0;
+  }
+  
+  .modal .content input {
+    max-width: auto;
+    border: 0;
+    color: #ddd;
+    padding: 10px;
+    font-size: 20px;
+  }
+  
+  .modal .content input:focus {
+    outline: none;
+  }
+  
+  .modal .footer {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .btn {
+    border: 0;
+    padding: 10px 8px;
+    min-width: 100px;
+    margin: 5px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  .btn.btn-success {
+    background-color: rgb(146,212,222)
+  }
+  
+  .btn.btn-danger {
+    background-color: #d63447
+  }
